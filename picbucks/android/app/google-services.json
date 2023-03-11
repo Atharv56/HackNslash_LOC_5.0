@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "881406409304",
+    "project_id": "jaan-315d9",
+    "storage_bucket": "jaan-315d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881406409304:android:260742a5a51a43134da82d",
+        "android_client_info": {
+          "package_name": "com.example.jaan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881406409304-skep0pd8ehucfmvivt8tiaui3a7d8bqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfkkgjnrrm6PICNMUyTCyUPXDdruklJk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881406409304-skep0pd8ehucfmvivt8tiaui3a7d8bqo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "881406409304-r5kgjtjlsdh7t66kcbps75s6704onmeo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jaan"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881406409304:android:d0108998b0d82e364da82d",
+        "android_client_info": {
+          "package_name": "com.example.picbucks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881406409304-skep0pd8ehucfmvivt8tiaui3a7d8bqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfkkgjnrrm6PICNMUyTCyUPXDdruklJk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881406409304-skep0pd8ehucfmvivt8tiaui3a7d8bqo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "881406409304-r5kgjtjlsdh7t66kcbps75s6704onmeo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jaan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:instagram_clone_flutter/models/post.dart';
-import 'package:instagram_clone_flutter/resources/storage_methods.dart';
+import 'package:picbucks/models/post.dart';
+import 'package:picbucks/resources/storage_methods.dart';
 import 'package:uuid/uuid.dart';
 
 class FireStoreMethods {

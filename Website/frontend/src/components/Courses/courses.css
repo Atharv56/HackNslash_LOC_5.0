@@ -1,0 +1,42 @@
+#c1{
+    background-image: url("../images/courses.png");
+    background-repeat: no-repeat;
+    object-fit:cover;
+    background-size: 300px 218px;
+}
+#c2{
+    background-image: url("../images/courses2.png");
+    background-repeat: no-repeat;
+    background-size: 280px 218px;
+}
+#c3{
+    background-image: url("../images/course8.png");
+    background-repeat: no-repeat;
+    object-fit:cover;
+    background-size: 280px 249px;
+}
+#c4{
+    background-image: url("../images/courses3.png");
+    background-repeat: no-repeat;
+    background-size: 279px 221px;
+}
+#c6{
+    background-image: url("../images/courses5.png");
+    background-repeat: no-repeat;
+    background-size: 280px 221px;
+}
+#c7{
+    background-image: url("../images/couurse.png");
+    background-repeat: no-repeat;
+    background-size: 279px 221px;
+}
+#c6{
+    background-image: url("../images/courses5.png");
+    background-repeat: no-repeat;
+    background-size: 288px 221px;
+}
+#c8{
+    background-image: url("../images/course6.png");
+    background-repeat: no-repeat;
+    background-size: 288px 221px;
+}

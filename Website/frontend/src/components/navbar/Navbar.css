@@ -1,0 +1,58 @@
+.name{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 750;
+    margin-left: 25px;
+    margin-top: 250px;
+}
+.logo {
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 62.5px;
+    width: 250px;  
+}
+.right-aligned{
+    justify-content: flex-end;
+    padding-left: 50px;
+}
+.links{
+    padding: 10px;
+    font-size: 20px;
+    padding-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#nav-dropdown1{
+    padding: 10px;
+    font-size: 20px;
+    padding-top: 9px;
+}
+#nav-dropdown2{
+    padding: 10px;
+    font-size: 20px;
+    padding-top: 9px;
+}
+
+.btn{
+    margin-right: 10px;
+    margin: 0;
+    color:rgb(0, 0, 0) !important;
+    background-color: aliceblue !important;
+    border: 2px solid whitesmoke !important;
+}
+
+#bttn{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    border: 2px solid whitesmoke !important;
+}
+.Nav{
+    padding-left: 10px;
+}

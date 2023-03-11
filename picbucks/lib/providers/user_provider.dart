@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:jaan/models/user.dart';
-import 'package:jaan/resources/auth_methods.dart';
+import 'package:picbucks/models/user.dart';
+// import 'package:pickbucks/resources/auth_methods.dart';
+import 'package:picbucks/resources/auth_methods.dart';
 
 class UserProvider with ChangeNotifier {
   User? _user;
