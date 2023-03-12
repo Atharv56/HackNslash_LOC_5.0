@@ -19,6 +19,7 @@ import Chat from './components/chat/Chat';
 import Courses from './components/Courses/courses';
 import Event from './components/Events/event';
 import StockImages from './components/explore/stock_images';
+import EditButton from './components/profile/profile';
 
 
 
@@ -42,6 +43,7 @@ function App() {
           <Route path='/chat' element={<Chat />} />
           <Route path='/jobs' element={<Event />} />
           <Route path='/explore' element={<StockImages/>} />
+          <Route path='/profile' element = {<EditButton/>} />
         </Routes>
       </Router>
             

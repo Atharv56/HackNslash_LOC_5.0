@@ -6,6 +6,7 @@ import 'package:picbucks/resources/auth_methods.dart';
 import 'package:picbucks/responsive/mobile_screen_layout.dart';
 import 'package:picbucks/responsive/responsive_layout.dart';
 import 'package:picbucks/responsive/web_screen_layout.dart';
+import 'package:picbucks/screens/home/pages/home_page.dart';
 import 'package:picbucks/screens/login_screen.dart';
 import 'package:picbucks/utils/colors.dart';
 import 'package:picbucks/utils/global_variable.dart';
@@ -56,10 +57,7 @@ class _SignupScreenState extends State<SignupScreen> {
       // navigate to the home screen
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) => const ResponsiveLayout(
-            mobileScreenLayout: MobileScreenLayout(),
-            webScreenLayout: WebScreenLayout(),
-          ),
+          builder: (context) => const HomePage(),
         ),
       );
     } else {

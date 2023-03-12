@@ -9,7 +9,9 @@ import 'package:picbucks/utils/colors.dart';
 import 'package:picbucks/utils/global_variable.dart';
 import 'package:picbucks/utils/utils.dart';
 import 'package:picbucks/widgets/text_field_input.dart';
-import 'package:picbucks/screens/home_page.dart';
+// import 'package:picbucks/screens/home_page.dart';
+
+import 'home/pages/home_page.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
