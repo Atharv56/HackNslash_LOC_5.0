@@ -44,6 +44,7 @@ dependencies:
   provider: ^6.0.5
   searchbar_animation: ^0.0.4
   uuid: ^3.0.7
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_lints: ^2.0.0

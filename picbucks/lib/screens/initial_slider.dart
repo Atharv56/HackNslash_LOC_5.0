@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:picbucks/screens/login_screen.dart';
 
-import '../widgets/responsive_button.dart';
+import 'home/widgets/responsive_button.dart';
 // import 'package:picbucks/pages/initial_slider.dart';
 // import 'package:picbucks/widgets/responsive_button.dart';
 
@@ -42,12 +41,11 @@ class _sliderPageState extends State<sliderPage> {
                     SizedBox(
                       height: 500,
                     ),
+
                     // ResponsiveButton(
                     //   width: 150,
                     // ),
-                    IconButton(onPressed: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => LoginScreen()));
-                    }, icon: Icon(Icons.arrow_forward_ios)),
+                    // Icon(icon: Icons.arrow_back, )
                     SizedBox(
                       height: 50,
                     ),

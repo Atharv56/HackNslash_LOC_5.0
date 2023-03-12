@@ -13,7 +13,7 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text("Maa Chuda"),
+      child: Text("Profile page"),
     );
   }
 }

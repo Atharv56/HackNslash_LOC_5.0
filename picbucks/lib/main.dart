@@ -8,6 +8,7 @@ import 'package:picbucks/providers/user_provider.dart';
 import 'package:picbucks/responsive/mobile_screen_layout.dart';
 import 'package:picbucks/responsive/responsive_layout.dart';
 import 'package:picbucks/responsive/web_screen_layout.dart';
+import 'package:picbucks/screens/home/pages/initial_slider.dart';
 import 'package:picbucks/screens/login_screen.dart';
 import 'package:picbucks/utils/colors.dart';
 import 'package:provider/provider.dart';
@@ -54,31 +55,32 @@ class MyApp extends StatelessWidget {
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: mobileBackgroundColor,
         ),
-        home: StreamBuilder(
-          stream: FirebaseAuth.instance.authStateChanges(),
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.active) {
-              // Checking if the snapshot has any data or not
-              if (snapshot.hasData) {
-                // if snapshot has data which means user is logged in then we check the width of screen and accordingly display the screen layout
-                return const LoginScreen();
-              } else if (snapshot.hasError) {
-                return Center(
-                  child: Text('${snapshot.error}'),
-                );
-              }
-            }
+        home: sliderPage(),
+        // home: StreamBuilder(
+        //   stream: FirebaseAuth.instance.authStateChanges(),
+        //   builder: (context, snapshot) {
+        //     if (snapshot.connectionState == ConnectionState.active) {
+        //       // Checking if the snapshot has any data or not
+        //       if (snapshot.hasData) {
+        //         // if snapshot has data which means user is logged in then we check the width of screen and accordingly display the screen layout
+        //         return const LoginScreen();
+        //       } else if (snapshot.hasError) {
+        //         return Center(
+        //           child: Text('${snapshot.error}'),
+        //         );
+        //       }
+        //     }
 
-            // means connection to future hasnt been made yet
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const Center(
-                child: CircularProgressIndicator(),
-              );
-            }
+        //     // means connection to future hasnt been made yet
+        //     if (snapshot.connectionState == ConnectionState.waiting) {
+        //       return const Center(
+        //         child: CircularProgressIndicator(),
+        //       );
+        //     }
 
-            return const LoginScreen();
-          },
-        ),
+        //     return const LoginScreen();
+        //   },
+        // ),
       ),
     );
   }

@@ -15,26 +15,26 @@ class MyDrawer extends StatelessWidget {
         color: Color.fromARGB(255, 11, 3, 31),
         child: ListView(
           children: [
-            DrawerHeader(
-              padding: EdgeInsets.zero,
-              child: UserAccountsDrawerHeader(
-                margin: EdgeInsets.zero,
-                decoration: BoxDecoration(
-                  color: Colors.cyan,
-                ),
-                accountName: Text(
-                  "Aryann Tated",
-                  style: TextStyle(color: Color.fromARGB(255, 11, 3, 31)),
-                ),
-                accountEmail: Text(
-                  "aryann.k.tated@gmaail.com",
-                  style: TextStyle(color: Color.fromARGB(255, 11, 3, 31)),
-                ),
-                currentAccountPicture: CircleAvatar(
-                  backgroundImage: NetworkImage(img_url),
-                ),
-              ),
-            ),
+            // DrawerHeader(
+            //   padding: EdgeInsets.zero,
+            //   child: UserAccountsDrawerHeader(
+            //     margin: EdgeInsets.zero,
+            //     decoration: BoxDecoration(
+            //       color: Colors.cyan,
+            //     ),
+            //     accountName: Text(
+            //       "test",
+            //       style: TextStyle(color: Color.fromARGB(255, 11, 3, 31)),
+            //     ),
+            //     accountEmail: Text(
+            //       "test@gmail.com",
+            //       style: TextStyle(color: Color.fromARGB(255, 11, 3, 31)),
+            //     ),
+            //     currentAccountPicture: CircleAvatar(
+            //       backgroundImage: NetworkImage(img_url),
+            //     ),
+            //   ),
+            // ),
             ListTile(
               leading: Icon(
                 CupertinoIcons.home,
@@ -49,12 +49,13 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
             ListTile(
+
               leading: Icon(
                 CupertinoIcons.profile_circled,
                 color: Colors.cyan,
               ),
               title: Text(
-                "Profile",
+                "Jobs",
                 textScaleFactor: 1.2,
                 style: TextStyle(
                   color: Colors.cyan,
@@ -63,11 +64,50 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(
-                CupertinoIcons.wifi,
+                CupertinoIcons.star,
                 color: Colors.cyan,
               ),
               title: Text(
-                "Wifi",
+                "Competitions",
+                textScaleFactor: 1.2,
+                style: TextStyle(
+                  color: Colors.cyan,
+                ),
+              ),
+            ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.book,
+                color: Colors.cyan,
+              ),
+              title: Text(
+                "Courses",
+                textScaleFactor: 1.2,
+                style: TextStyle(
+                  color: Colors.cyan,
+                ),
+              ),
+            ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.settings,
+                color: Colors.cyan,
+              ),
+              title: Text(
+                "Settings",
+                textScaleFactor: 1.2,
+                style: TextStyle(
+                  color: Colors.cyan,
+                ),
+              ),
+            ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.info,
+                color: Colors.cyan,
+              ),
+              title: Text(
+                "About Us",
                 textScaleFactor: 1.2,
                 style: TextStyle(
                   color: Colors.cyan,
