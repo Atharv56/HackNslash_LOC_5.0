@@ -35,13 +35,7 @@ import Slider from 'react-slick';
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-                <Image   
-                    alt={'Login Image'}
-                    objectFit={'cover'}
-                    src={
-                        logo
-                    } 
-                />
+                
               <Text
               as={'span'}
               position={'relative'}
@@ -73,7 +67,7 @@ import Slider from 'react-slick';
                   bg: 'gray.500',
                   color: 'black'
                 }}>
-                <a href="/login">Login In</a>
+                <a href="/login">Log In</a>
               </Button>
               <Button rounded={'full'} fontSize={'18'}><a href="/signup">
               <Text color={'gray.500'}>

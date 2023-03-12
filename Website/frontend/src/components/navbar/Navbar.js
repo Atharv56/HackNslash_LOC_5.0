@@ -11,26 +11,26 @@ export default function NavScrollExample() {
     <div className='navBar'>
     <Navbar bg="black" variant="dark" expand="lg" fixed = 'top' collapseOnSelect>
         <Navbar.Brand href="/home">
-          <img  src={logo} alt="" class="logo"/>
+          {/* <img  src={logo} alt="" class="logo"/> */}
+          <h1 className=''>PicBucks</h1>
         </Navbar.Brand>
         <Navbar.Toggle/>
         <Navbar.Collapse className='right-aligned'>
         <span styles={{display:"inline",float:"right",marginTop:5,textAlign:"center",padding:50}}>
           <Nav>
-          <NavDropdown title="Travel with Us" id="nav-dropdown1">
-              <NavDropdown.Item href="/predict" className = "links">Find your Travel Buddy</NavDropdown.Item>
+          <NavDropdown title="Services" id="nav-dropdown1">
+              <NavDropdown.Item href="/explore" className = "links">Explore</NavDropdown.Item>
               <NavDropdown.Divider/>
-              <NavDropdown.Item href="/voice" className = "links">Connect with Locals</NavDropdown.Item>
+              <NavDropdown.Item href="/jobs" className = "links">Jobs</NavDropdown.Item>
 
             </NavDropdown>
 
-            <NavDropdown title="Explore" id="nav-dropdown2">
+            {/* <NavDropdown title="Explore" id="nav-dropdown2">
               <NavDropdown.Item href="/courses" className = "links">Courses</NavDropdown.Item>
               <NavDropdown.Divider/>
-              <NavDropdown.Item href="/events" className = "links">Events</NavDropdown.Item>
-
-            </NavDropdown>
-            
+              <NavDropdown.Item href="/event" className = "links">Events</NavDropdown.Item>
+            </NavDropdown> */}
+            <Nav.Link href="/courses" className = "links">Courses</Nav.Link>
             <Nav.Link href="/blog" className = "links">Blog</Nav.Link>
             <Nav.Link href="/contactus" className = "links">Contact Us</Nav.Link>
             

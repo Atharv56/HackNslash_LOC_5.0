@@ -44,6 +44,7 @@ function App() {
           <Route path='/jobs' element={<Event />} />
           <Route path='/explore' element={<StockImages/>} />
           <Route path='/profile' element = {<EditButton/>} />
+          {/* <Route path='/event' element = {<Event />} /> */}
         </Routes>
       </Router>
             
