@@ -30,11 +30,11 @@ void main() async {
     await Firebase.initializeApp();
   }
   runApp(const MyApp());
-  WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
-    if (Platform.isAndroid||Platform.isIOS) {
-      await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
-    }
-  });
+  // WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
+  //   if (Platform.isAndroid||Platform.isIOS) {
+  //     var bool = await FlutterWindowManager.addFlags(FlutterWindowManager.FLAG_SECURE);
+  //   }
+  // });
 }
 
 class MyApp extends StatelessWidget {
@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Instagram Clone',
+        title: 'PicsBuck',
         theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: mobileBackgroundColor,
         ),
